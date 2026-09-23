@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">Jericho<span>.</span></a>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-text">
+            <h1>Hi I'm <span>Jericho Guasis</span></h1>
+            
+            <div class="degree-badge">
+                <i class="fa-solid fa-graduation-cap"></i> Bachelor of Science in Information Technology
+            </div>
+
+            <p class="hero-description">
+                I am a <span class="role-highlight">Frontend Developer</span> focused on building modern, responsive, and efficient websites and web applications.
+            </p>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h2>2+</h2>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                    <h2>1+</h2>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+
+            <div class="action-btns">
+                <a href="#contact" class="btn-primary">Contact me</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/jericho27-qt" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/jericho_qt2?stkn=aWZkczN6ODk3ZWVv" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/19Gu95ozMR/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-card">
+                <img src="/IMG_20260920_011916.jpg" alt="Profile Visual">
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="about">
+        <div class="about-info">
+            <h2 class="section-title">About me</h2>
+            <p class="section-desc">
+                I am a passionate frontend developer focused on building functional, responsive, and aesthetically refined digital experiences using modern frameworks and tools.
+            </p>
+            <p class="section-desc" style="margin-top: -15px;">
+                Currently pursuing my BS in Information Technology at ESSU-Main, I enjoy turning complex problems into intuitive web solutions. I specialize in crafting clean code, optimizing user interfaces, and continuously building personal projects to sharpen my web development skills.
+            </p>
+            
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fa-solid fa-school"></i>
+                    <div>
+                        <h4>School</h4>
+                        <p>ESSU-Main</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <div>
+                        <h4>Year Level</h4>
+                        <p>3rd Year</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>My Location</h4>
+                        <p>Eastern Visayas, Philippines</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>My Phone Number</h4>
+                        <p>+63 9679243555</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="grid-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="/image/received_981549151094969.jpeg" alt="Task Manager" onerror="this.onerror=null; this.parentElement.innerHTML='<i class=\'fa-solid fa-laptop-code fa-2x\' style=\'color: var(--primary-red);\'></i>';">
+                </div>
+                <h3>Task Manager</h3>
+                <p style="color: var(--text-gray); font-size: 0.85rem; margin: 10px 0;">Built with Codeigniter, dynamic routing, and Tailwind styling.</p>
+                <div class="tags">
+                    <span class="tag">Codeigniter</span>
+                    <span class="tag">Tailwind</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="/image/1788406911813.jpg" alt="QGIS Hazard Mapping" onerror="this.onerror=null; this.parentElement.innerHTML='<i class=\'fa-solid fa-map-location-dot fa-2x\' style=\'color: var(--primary-red);\'></i>';">
+                </div>
+                <h3>QGIS Hazard Mapping</h3>
+                <p style="color: var(--text-gray); font-size: 0.85rem; margin: 10px 0;">Spatial analysis and risk classification maps for local barangay zones.</p>
+                <div class="tags">
+                    <span class="tag">QGIS</span>
+                    <span class="tag">Spatial Data</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="grid-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-laravel" style="color: #ff2d20;"></i>
+                <h3>Laravel</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-php" style="color: #777bb4;"></i>
+                <h3>PHP</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5" style="color: #e34f26;"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt" style="color: #1572b6;"></i>
+                <h3>CSS3 / Tailwind</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js" style="color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="contact">
+        <div class="contact-header">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-desc">Let's build something great together. Have a project in mind or just want to chat? Drop me a message!</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <div>
+                        <h4>My Whatsapp</h4>
+                        <p>+63 9679243555</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-map"></i>
+                    <div>
+                        <h4>My Address</h4>
+                        <p>Eastern Visayas, Philippines</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send Email</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="whats up bro" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://github.com/jericho27-qt" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/jericho_qt2?stkn=aWZkczN6ODk3ZWVv" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/19Gu95ozMR/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <p>&copy; 2026 <span>Jericho Guasis</span>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
